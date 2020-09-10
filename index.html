@@ -11,20 +11,33 @@
 		font-family: "jackeyfont";
 		src: url("jackeyfont.ttf") format("truetype");
 	}
+
+/*	@font-face {
+    	font-family: 'dosegamedium';
+    	src: url('dosega-webfont.eot');
+    	src: url('dosega-webfont.eot?#iefix') format('embedded-opentype'),
+        	 url('dosega-webfont.woff') format('woff'),
+       	     url('dosega-webfont.ttf') format('truetype'),
+             url('dosega-webfont.svg#dosegamedium') format('svg');
+    	font-weight: normal;
+    	font-style: normal;
+	}*/
+
 	body {
 		background-color: #000000;
 	}
 	.logo {
-		padding-top: 50px;
+		padding-top: 30px;
 		text-align: center;
 	}
-	.album {
+/*	.album {
 		text-align: center;
 	}
 	.famidoka {
-		/*box-shadow: 4px 4px white;*/
+		box-shadow: 4px 4px white;
 		border: 2px solid white;
-	}
+	}*/
+
 	table {
 		/*border: 3px solid white;*/
 		width: 35%;
@@ -34,19 +47,12 @@
 	th, td {
   		/*border: 1px solid white;*/
 	}
-	p {
-		font-family: courier new, monospace;
-		/*font-family: 'dosegamedium', Arial, sans-serif;*/
-		color: #ffffff;
-		text-align: center;
-		font-size: 28px;
-		letter-spacing: -2px;
-	}
+
 	a { 
 		font-family: courier new, monospace;
 		/*font-family: 'dosegamedium', Arial, sans-serif;*/
 		color: #ffffff;
-		font-size: 28px;
+		font-size: 26px;
 		letter-spacing: -1px;
 	}
 	a:hover {
@@ -55,8 +61,20 @@
 	.h {
 		color: #04ff0f;
 		font-size: 28px;
-/*	}
-	.hjp {
+	}
+	.hb { 
+		color: #04ff0f;
+		font-size: 30px;
+	}
+	p {
+		font-family: courier new, monospace;
+		/*font-family: 'dosegamedium', Arial, sans-serif;*/
+		color: #ffffff;
+		text-align: center;
+		font-size: 24px;
+		letter-spacing: -1px;
+	}
+/*	.hjp {
 		font-family: 'jackeyfont';
 		color: #04ff0f;
 		font-size: 26px;
@@ -84,28 +102,27 @@
 <body>
 <div class="logo"><img src="logo.png"></img></div>
 
-<p>nocturnalplant</p>
-
 <table cellspacing="0" cellpadding="0" border="0">
 <tbody>
   <tr>
-    <td><p class="h">MUSIC<br>------</p></td>
-    <td><p class="h">SOCIAL<br>------</p></td>
-    <td><p class="h">SUPPORT<br>------</p></td>
+    <td><p class="hb">MUSIC<br>------</p></td>
+    <!-- <td><p class="h">LISTEN</p></td> -->
+    <td><p class="hb">SOCIAL<br>------</p></td>
+    <td><p class="hb">SUPPORT<br>------</p></td>
+    <!-- <td><p class="hjp">日本語</p></td> -->
   </tr>
   <tr>
     <td valign="top">
       <a href="http://nocturnalplant.bandcamp.com/">Bandcamp</a><br>
-      <a href="https://www.youtube.com/channel/UCDmbP1MaL0-JiO2NF803iqg">YouTube</a><br>
-      <!-- <a href="https://open.spotify.com/artist/nocturnalplant">Spotify</a><br> -->
-      <!-- <a href="http://www.pandora.com/nocturnalplant">Pandora</a><br> -->
-      <!-- <a href="http://amazon.com/dp/artist-redirect/B00P10HQYC">Amazon</a><br> -->
-      <!-- <a class="temp">(more soon)</a> -->
+      <a href="https://www.youtube.com/channel/UCDmbP1MaL0-JiO2NF803iqg">YouTube</a><br>&nbsp;
     </td>
     <td valign="top">
       <a href="http://twitter.com/nocturnalplant">Twitter</a><br>
       <a href="http://twitch.tv/nocturnalplant">Twitch</a><br>
       <a href="https://nocturnalplant.tumblr.com/">Tumblr</a><br>
+      <!-- <a href="https://steamcommunity.com/id/nocturnalplant/">Steam</a><br> -->
+      <!-- <a href="https://tinyletter.com/nocturnalplant">Tinyletter</a><br> -->  
+      <!-- <a class="temp">(more later)</a> -->
     </td>
     <td valign="top">
       <!-- <a href="http://patreon.com/nocturnalplant">Patreon</a><br> -->
@@ -113,6 +130,11 @@
       <a href="https://ko-fi.com/nocturnalplant">Ko-fi</a><br>
       <!-- <a href="https://www.amazon.com/hz/wishlist/ls/2W0O1DFEI0FEO">Amazon</a><br> -->
     </td>
+    <!-- <td valign="top"> -->
+      <!-- <a class="ajp" href="https://twitter.com/nocturnal_plant">ツイーター</a><br> -->
+      <!-- <a href="https://www.duolingo.com/profile/nocturnalplant">Duolingo</a><br> -->
+      <!-- hinative? -->
+    <!-- </td> -->
   </tr>
 </tbody>
 </table>
@@ -127,6 +149,7 @@
    <a class="bottom" href="faq.html">FAQ</a> &nbsp;
    <a class="bottom" href="https://docs.google.com/forms/d/e/1FAIpQLSchgW6_nIKAhyO3IDaVdo_R6CqqvrYphFRjukYtonKViswtRw/viewform">Contact</a>
 </p>
+
 
 </body>
 </html>
